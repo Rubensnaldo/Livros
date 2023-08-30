@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Livros.Domain\Livros.Domain.csproj" />
-    <ProjectReference Include="..\Livros.Services\Livros.Services.csproj" />
+    <ProjectReference Include="..\Livros.Repository\Livros.Repository.csproj" />
   </ItemGroup>
 
 </Project>
